@@ -10,8 +10,8 @@ body{
 
 
 .canvas{
-    width: 700px;
-    height: 700px;
+    /* width: 700px;
+    height: 700px; */
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 5px 10px 1px rgba(0,0,0,0.48);
@@ -44,6 +44,8 @@ body{
     cursor: pointer;
 }
 
+
+.contraols__color:active,
 .controls__btns button:active{
     transform: scale(0.98);
 }
@@ -51,6 +53,7 @@ body{
 
 .controls__colors{
     display: flex;
+    cursor: pointer;
 }
 
 .contraols__color{
